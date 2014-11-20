@@ -7,6 +7,22 @@
 [![Dependency Status](https://gemnasium.com/JamesBrooks/hash_validator.png)](https://gemnasium.com/JamesBrooks/hash_validator)
 
 Ruby library to validate hashes (Hash) against user-defined requirements
+Main different with original gem, that simple datatypes like
+[
+  Array,
+  Complex,
+  Enumerable,
+  Float,
+  Integer,
+  Numeric,
+  Range,
+  Rational,
+  Regexp,
+  String,
+  Symbol,
+  Time
+]
+and boolean aren't required.
 
 ## Installation
 
